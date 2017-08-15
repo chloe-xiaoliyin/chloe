@@ -1,0 +1,19 @@
+Steps to setup the automation framework:
+1. Install NodeJS (download nodejs from here:https://nodejs.org/en/download/)
+
+2. Go to "C:\Users\<current user>\AppData\Roaming\npm", then start a cmd window and run the command:
+npm install -g protractor
+
+3.  Stay in "C:\Users\<current user>\AppData\Roaming\npm" cmd window and run the command:
+webdriver-manager update
+
+4.  Stay in "C:\Users\<current user>\AppData\Roaming\npm" cmd window and run the command:
+webdriver-manager start
+
+
+Steps to run the scritps:
+1. Download all the scripts (.js files) and place them in one folder
+2. Go to the folder where the js scirpts placed
+3. Start a cmd window and run the command:
+protractor conf.js
+
